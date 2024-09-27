@@ -48,8 +48,6 @@ public class ExtraCredit {
         double cost = 100;
         String items = "";
 
-        System.out.println(roundMoney(1.495));
-
         //Your scanner object and while loop should go here
         Scanner scanner = new Scanner(System.in);
         String userInput = "";
@@ -61,7 +59,7 @@ public class ExtraCredit {
             }
         }
         scanner.close();
-                             
+    
         System.out.println(calculateTip(people,percent,cost,items));
     }
 }
